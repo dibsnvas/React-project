@@ -10,9 +10,10 @@ const CyberPage = () => {
           alt="Cyber Zhauynger Logo"
           className="h-16 w-16 ml-4"
         />
-        <h1 className="text-3xl font-bold text-white">
-          Cyber Zhauynger.kz
-        </h1>
+<h1 className="text-1xl sm:text-3xl md:text-4xl lg:text-3xl font-bold text-white">
+  Cyber Zhauynger.kz
+</h1>
+
       </header>
 
       <div className="bg-blue-900 bg-opacity-70 shadow-lg rounded-lg p-6 mb-8 text-center mt-24">
