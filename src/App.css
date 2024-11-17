@@ -1,0 +1,57 @@
+.bg-cover {
+  background-image: url('../public/image copy.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.circular-pyramid {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+  display: flex; /* Use flex for alignment */
+  flex-wrap: wrap;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center; /* Center buttons vertically */
+  gap: 20px; /* Space between buttons */
+}
+
+/* Default pyramid-item styling */
+.pyramid-item {
+  margin-top: 50px;
+  position: relative; /* Change to relative for stacking */
+  width: 220px;
+  height: 80px;
+  background: #2563eb;
+  color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.pyramid-item:hover {
+  transform: scale(1.1);
+  background: #1e40af;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .circular-pyramid {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Adjust height based on content */
+    flex-direction: column; /* Stack buttons vertically */
+  }
+
+  .pyramid-item {
+    width: 90%; /* Buttons take up most of the screen width */
+    max-width: 300px; /* Limit maximum width */
+    height: 60px; /* Adjust height for smaller screens */
+    font-size: 0.8rem; /* Reduce font size slightly */
+  }
+}
