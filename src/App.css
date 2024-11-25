@@ -1,5 +1,5 @@
 .bg-cover {
-  background-image: url('../public/image copy.png');
+  background-image: url('../public/back.png');
   background-size: cover;
   background-position: center;
 }
@@ -54,4 +54,9 @@
     height: 60px; /* Adjust height for smaller screens */
     font-size: 0.8rem; /* Reduce font size slightly */
   }
+}
+@font-face {
+  font-family: 'TT Octosquares Compressed';
+  src: url('../public/fonts//TTOctosquaresTrlCmd-Rg.woff') format('truetype');
+  font-style: normal;
 }

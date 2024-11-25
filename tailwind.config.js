@@ -3,8 +3,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-blue': '#2563eb'
-      }
+        'custom-blue': '#2563eb',
+      },
+      fontFamily: {
+        'custom-font': ['"TT Octosquares Compressed"', 'sans-serif'],
+      },
     },
   },
   plugins: [],

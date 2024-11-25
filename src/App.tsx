@@ -10,41 +10,52 @@ const CyberPage = () => {
           alt="Cyber Zhauynger Logo"
           className="h-16 w-16 ml-4"
         />
-<h1 className="text-1xl sm:text-3xl md:text-4xl lg:text-3xl font-bold text-white">
+<h1 className="text-1xl sm:text-3xl md:text-4xl lg:text-3xl font-bold font-custom-font text-white">
   Cyber Zhauynger.kz
 </h1>
 
       </header>
 
       <div className="bg-blue-900 bg-opacity-70 shadow-lg rounded-lg p-6 mb-8 text-center mt-24">
-        <h2 className="text-4xl font-semibold mb-4 text-white">
+        <h2 className="text-4xl font-semibold mb-4 font-custom-font text-white">
           Кибер-Жауынгер
         </h2>
-        <p className="text-white">прикладная школа инженерии</p>
+        <p className="font-custom-font text-2xl text-white">прикладная школа инженерии</p>
         <div className="h-48 bg-gray-300 mt-6 flex items-center justify-center">
-          <span className="text-gray-500">Видео на заднем фоне</span>
+          <span className="font-custom-font text-gray-500">Видео на заднем фоне</span>
         </div>
       </div>
 
       <section className="relative flex items-center justify-center mt-[54px] mb-8">
-  <h3 className="absolute text-3xl font-semibold top-[-2rem] text-white">
+  <h3 className="absolute text-5xl font-custom-font font-semibold top-[-2rem] text-white">
     Выберите интересующее вас направление:
   </h3>
   <div className="circular-pyramid">
-    <button className="pyramid-item">Ракетостроение</button>
-    <button className="pyramid-item">Робототехника</button>
-    <button className="pyramid-item">3D печать</button>
-    <button className="pyramid-item">3D моделирование</button>
-    <button className="pyramid-item">Разработка приложений</button>
+    <button className="pyramid-item font-custom-font text-3xl sm:text-xl md:text-2xl">
+      Ракетостроение
+    </button>
+    <button className="pyramid-item font-custom-font text-lg sm:text-xl md:text-2xl">
+      Робототехника
+    </button>
+    <button className="pyramid-item font-custom-font text-lg sm:text-xl md:text-2xl">
+      3D печать
+    </button>
+    <button className="pyramid-item font-custom-font text-lg sm:text-xl md:text-2xl">
+      3D моделирование
+    </button>
+    <button className="pyramid-item font-custom-font text-lg sm:text-xl md:text-2xl">
+      Разработка приложений
+    </button>
   </div>
 </section>
 
 
+
       <section className="bg-blue-900 bg-opacity-70 shadow-lg rounded-lg p-6 mb-8">
-        <h3 className="text-xl font-semibold mb-4 text-white">
+        <h3 className=" font-custom-font text-xl font-semibold mb-4 text-white">
           Миссия школы:
         </h3>
-        <p className="text-white">
+        <p className="text-white font-custom-font">
           Школа «Кибер Жауынгер» — это воплощение детской мечты, вдохновлённой
           образом Тони Старка, гениального изобретателя и защитника. Увлечение
           его деятельностью побудило меня изучать науку и IT, а трёхлетний опыт
@@ -71,8 +82,8 @@ const CyberPage = () => {
       </section>
 
       <footer className="bg-blue-900 bg-opacity-70 shadow-lg rounded-lg p-6 text-center">
-        <p className="text-white">Адрес: Аль-Фараби, 21/7</p>
-        <p className="text-white">
+        <p className="text-white font-custom-font">Адрес: Аль-Фараби, 21/7</p>
+        <p className="text-white font-custom-font">
           Контактные данные: 8 778 873 96 17 (whatsapp)
         </p>
       </footer>
